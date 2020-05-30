@@ -1,0 +1,63 @@
+{
+    "init": [
+        "So you wish for a session of Monikers? Very well, I will accomodate.",
+        "# Type '${prefix}m rules' if you need me to explain the rules.",
+        "# Type '${prefix}m join' if you want to join.",
+        "# Type '${prefix}m leave' if you want to leave.",
+        "# Type '${prefix}m playerlist' to see who else are playing.",
+        "# Type '${prefix}m abort' to cancel the game.",
+        "# Type '${prefix}m start' and I will start the session."
+    ],
+
+    "join": [
+        "Welcome to our Monikers session. Give me $quota names for people to guess.",
+        "Here's what you can do:",
+        "# Add names using '${prefix}m add [name]'. I'll remove all non-characters and lowercase for you.",
+        "# Remove names using '${prefix}m remove [name]'.",
+        "# See what you have given me using '${prefix}m listnames'."
+    ],
+
+    "rules": [
+        "So you've never played Monikers before? Let me quickly explain it to you then.",
+        "Monikers is basically a guess-the-word game, played over 3 rounds of increasing difficulty.",
+        "Here's all you need to know:",
+        "",
+        "1.  Everyone starts by giving me 5 words. Most commonly, these would be names of actual/fictional people.",
+        "2.  I take all of your words and shuffle them. These will be what you all need to guess.",
+        "3.  After randomly dividing you into 2 teams, I will start the game. It begins with Round 1, Team A goes first.",
+        "4.  Each turn I will select one player from the team to become the explainer. He/she will be given a random words that has not been guessed yet.",
+        "5.  The rest of the player will be given $rlength seconds to guess. Correct answers are given 1000 points.",
+        "6.  When $rlength seconds has passed and there are still words to guess, the next team gets their turn.",
+        "7.  If all words have been guessed, the round ends. This repeats until the 3rd round ends.",
+        "8.  Team with higher score in the end wins.",
+        "",
+        "Now, the most important part. Over the rounds, the way you're allowed to describe the word will be made harder:",
+        "# Round 1: You can say anything other than the word itself.",
+        "# Round 2: Randomized rule! You need to listen to the instruction on your turn.",
+        "# Round 3: You can make any sounds but NOT SAY ANY WORD.",
+        "",
+        "Easy enough right? Now come join if you haven't. It's not like we have anything better to do here."
+    ],
+
+    "round_instructions": {
+        "1": [
+            "This round, explain by saying anything other than the word itself!"
+        ],
+        "2": [
+            "This round, explain by saying only one verb!",
+            "This round, explain by saying only one adjective!",
+            "This round, explain by giving a one-sentence opinion of the word!"
+        ],
+        "3": [
+            "This round, explain by making sounds, but not words!"
+        ]
+    },
+
+    "streak_messages": {
+        "1": "Now's your chance to start catching up...",
+        "2": "That's twice in a row, not bad.",
+        "3": "Oooh, three's a charm, they say!",
+        "4": "That's four! You're sure you're not cheating??!!",
+        "5": "????!!!????"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "rules": [
+        "I will briefly explain the rules to Wavelength. Pay attention.",
+        "Wavelength is a game where you try to guess your teammates' opinion on something in the context of two opposing prompts.",
+        "The game goes like this:",
+        "",
+        "1. I will randomly divide you into two teams, A and B and begin the game.",
+        "2. Each turn I will select one player as the subject.",
+        "3. Hidden from his teammates, I will secretly show [THE TRUTH METER] to the subject.",
+        "4. [THE TRUTH METER] will contain 2 pieces of information:",
+        "```    [THE PROMPTS]: Two concepts which lies on opposite ends of the meter.",
+        "    [THE TARGET]: An 'X' that lies on a random point between the two prompts.```",
+        "5. The job of the subject is to guide his teammates to the guess the position of [THE TARGET]. He will do this by adding another piece of information:",
+        "```    [THE CLUE]: This could be anything that the subject thinks lies on the position of [THE TARGET] within the context of [THE PROMPTS].```",
+        "6. After the subject added [THE CLUE], I will then show [THE TRUTH METER] to his teammates, WITHOUT SHOWING[THE POINTER].",
+        "7. The rest of the teammates must guess (by adjusting the arrow) the position of [THE TARGET] by guessing where does the subject thinks [THE CLUE] lie between [THE PROMPTS].",
+        "",
+        "Here's an example of [THE TRUTH METER]:"
+    ],
+
+    "init": [
+        "So you wish for a session of Wavelength? Very well, I will accomodate.",
+        "# Type '${prefix}w rules' if you need me to explain the rules.",
+        "# Type '${prefix}w join' if you want to join.",
+        "# Type '${prefix}w leave' if you want to leave.",
+        "# Type '${prefix}w playerlist' to see who else are playing.",
+        "# Type '${prefix}w abort' to cancel the game.",
+        "# Type '${prefix}w start' and I will start the session."
+    ],
+
+    "score_message": {
+        "0": "Wow you're so bad at this",
+        "1": "Hey, you got 1 point.",
+        "2": "Ooo, 2 points for you!",
+        "3": "3 points! Seems like you know your friend quite well.",
+        "4": "4 points, that's so close!",
+        "5": "Whoa hey, you're a mind reader or what? 5 points!"
+    }
+}
