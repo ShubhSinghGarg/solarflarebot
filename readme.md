@@ -12,6 +12,7 @@ Currently, the implementation of Monikers requires participating players to cont
 
 ### Files and Folders
 `src`: Contains the source code for the bot (`solarflarebot.py`) and the /env file needed to run the bot.
+
 `data`: Contains files for game questions and narration.
 
 ## How-tos  
